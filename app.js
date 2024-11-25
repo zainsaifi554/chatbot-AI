@@ -1,5 +1,5 @@
 
-// alert("HELLO WELCOME TO 'YOUR'S APP'")
+//  alert("HELLO WELCOME TO 'YOUR'S APP'")
 
 
 var list = document.getElementById("list");
@@ -31,7 +31,7 @@ function sendMessage() {
         }, 4000);
         userInput.value = "";
 
-    } else if (["mein theek", "theek hon", "mein theek hon", "theek", "allhamdullilah", "mast", "theek hon aap sunao"].indexOf(value.toLowerCase()) !== -1) {
+    } else if (["mein theek", "theek hon", "mein theek hon", "theek", "thk", "thk h", "thk hon", "allhamdullilah", "mast", "theek hon aap sunao"].indexOf(value.toLowerCase()) !== -1) {
         setTimeout(function () {
             list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt=''style='border-radius: 50%;' width='30px' height='30px'><br> Mein aapki kia madad krskta hon?</li>";
             typing.style.display = "none";
@@ -172,7 +172,7 @@ function sendMessage() {
 
         } else if (["allah hafiz","allahafiz", "allahhafiz", "allah  hafiz", "  allah hafiz", "khuda hafiz"].indexOf(value.toLowerCase()) !== -1) {
             setTimeout(function () {
-                list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt=''style='border-radius: 50%;' width='30px' height='30px'><br> sorry to say mn apko abhi zyda kch entertain nh ke saka</li>";
+                list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt=''style='border-radius: 50%;' width='30px' height='30px'><br> sorry mn apko abhi zyda kch entertain nh kr saka</li>";
                 typing.style.display = "none";
             }, 2000);
             setTimeout(function () {
@@ -180,7 +180,7 @@ function sendMessage() {
                 typing.style.display = "none";
             }, 2000);
             setTimeout(function () {
-                list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt=''style='border-radius: 50%;' width='30px' height='30px'><br> naraz nh hona please bs abhi kch thk nh ab itna hi kr skta hon mn</li>";
+                list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt=''style='border-radius: 50%;' width='30px' height='30px'><br> naraz nh hona please bs abhi kch thk nh bs itna hi kr skta hon mn</li>";
                 typing.style.display = "none";
             }, 2000);
             setTimeout(function () {
@@ -192,10 +192,14 @@ function sendMessage() {
                 typing.style.display = "none";
             }, 2000);
             setTimeout(function () {
-                list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt=''style='border-radius: 50%;' width='30px' height='30px'><br>dua mn yad rakhna allah hafiz bs ab agy ab ap kch type nh krna wrna mn naraz ho jaonga </li>";
+                list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt=''style='border-radius: 50%;' width='30px' height='30px'><br>dua mn yad rakhna allah hafiz...bs ab agy ab ap kch type nh krna wrna mn naraz ho jaonga </li>";
                 typing.style.display = "none";
             }, 2000);
-
+          }  else if (["hm", "hn", "han", "ham", ].indexOf(value.toLowerCase()) !== -1) {
+                setTimeout(function () {
+                    list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt=''style='border-radius: 50%;' width='30px' height='30px'><br> hm</li>";
+                    typing.style.display = "none";
+                }, 2000);
 
     } else {
         setTimeout(function () {
@@ -203,7 +207,7 @@ function sendMessage() {
             typing.style.display = "none";
         }, 2000);
         setTimeout(function () {
-            list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt='' style='border-radius: 50%;' width='30px' height='30px'><br> abhi in sbh k jawab de skta hon mn so please ask me about same like below <br> assalamualikum <br> mujhy entertain karo <br> allah hafiz </li>";
+            list.innerHTML += "<li class='left-side'><img src='images/cyborg.png' alt='' style='border-radius: 50%;' width='30px' height='30px'><br> abhi in sbh k jawab de skta hon mn so please ask me about same like below <br> like this <br> assalamualikum <br> mujhy entertain karo <br> allah hafiz </li>";
             typing.style.display = "none";
         }, 2000);
         userInput.value = "";
